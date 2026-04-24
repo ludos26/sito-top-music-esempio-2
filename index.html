@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <style>
+    
+	#img-top {
+	  width: 100px;
+	  height: 67px;
+	  background-image: url("img/torna-su.jpg");
+	}
+
+	#img-top:hover {
+	  background-image: url("img/torna-su-black.jpg");
+	}
+    	
+    </style>
+    
+</head>
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<div id="first" class="container">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        La Top Music anni '70
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+     <div class="card-group">
+	  <div class="card">
+	    <img class="card-img-top" src="img/lennon.jpg" alt="lennon">
+	    <div class="card-body">
+	      <h5 class="card-title">John Lennon</h5>
+	      <p class="card-text">John Lennon (1940-1980) è stato un cantautore, chitarrista e attivista britannico, celebre come membro fondatore dei Beatles. Autore di gran parte dei successi della band con Paul McCartney, ha ridefinito la musica pop/rock. Dopo lo scioglimento, ha intrapreso una carriera solista di successo, distinguendosi per testi introspettivi e pacifisti, tra cui l'inno Imagine</p>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="img/diana.jpg" alt="diana">
+	    <div class="card-body">
+	      <h5 class="card-title">Diana Ross</h5>
+	      <p class="card-text">Diana Ross, nata il 26 marzo 1944 a Detroit, è una leggendaria cantante, produttrice e attrice statunitense, celebre come voce delle Supremes negli anni '60 e poi come icona solista. Regina della Motown e della disco music, è riconosciuta per la sua voce distintiva e il suo stile raffinato, definita "Entertainer of the Century".</p>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="img/beatles.jpg" alt="beatles">
+	    <div class="card-body">
+	      <h5 class="card-title">Beatles</h5>
+	      <p class="card-text">I Beatles sono stati un influente gruppo rock/pop britannico, fondato a Liverpool nel 1960 e attivo fino al 1970, composto da John Lennon, Paul McCartney, George Harrison e Ringo Starr. Icone della "British Invasion" e del fenomeno "Beatlemania", hanno rivoluzionato la musica pop e la cultura di massa con oltre 600 milioni di copie vendute </p>
+	    </div>
+	  </div>
+	</div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="card">
+  <div class="card-header text-center">
+    Caratteristiche
+  </div>
+  <div class="card-body mx-auto">
+    <h5 class="card-title text-center">Top Music 2026</h5>
+    <p class="card-text text-center">Tutti i diritti riservati</p>
+    <div class="text-center">
+    	<a href="#first" class="btn btn-primary"><div id="img-top"></div></a>
+    </div>	
+  </div>
+  
+</div>
+
+
+
+
+</body>
